@@ -1,10 +1,12 @@
 import Head from "next/head";
 import Image from "next/image";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
+import { Intro } from "../components/Intro";
+import { Services } from "../components/Services";
+import { Testimonials } from "../components/Testimonials";
+import { data } from "../data";
 
-export default function Home() {
+export default function Home({ services }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +14,16 @@ export default function Home() {
         <meta name="description" content="Web Developers" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      This is home page   
+      <Intro />
+      <Services services={services} />
+      <Testimonials />
     </div>
   );
 }
+
+export const getStaticProps = async () => {
+  const services = data;
+  return {
+    props: { services },
+  };
+};

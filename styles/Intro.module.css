@@ -1,0 +1,42 @@
+.container{
+    padding: 0 30px;
+    width: 100%;
+    height: calc(100vh - 10vh);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.card{
+    flex: 1;
+    padding: 4vw;    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    position: relative;    
+}
+
+.title{
+    font-size:3vw;
+    margin: 0;    
+}
+
+.brand{
+    color: #2b4263;
+}
+
+.desc{
+    font-size: 1.5vw;
+    margin: 0;
+}
+
+.button{
+    border: none;
+    background-color: #2b4263;
+    color: white;
+    font-weight: bold;
+    width: 10vw;
+    padding: 0.8vw;
+    border-radius: 10px;
+    cursor: pointer;
+}

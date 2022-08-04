@@ -1,5 +1,16 @@
 .container{
-    height: 50px;
-    background-color: black;
-    color: white;
+    height: 10vh;
+    background-color: #06122f;    
+    display: flex;   
+    align-items: center;
+    justify-content: space-between; 
+    padding: 4vh;    
+}
+
+
+
+.listItems{
+    display: inline;
+    margin-right: 3vw;
+    font-size: 2vh;
 }

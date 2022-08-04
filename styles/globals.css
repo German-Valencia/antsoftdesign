@@ -1,4 +1,4 @@
-/* html,
+html,
 body {
   padding: 0;
   margin: 0;
@@ -15,13 +15,22 @@ a {
   box-sizing: border-box;
 }
 
+.circle{
+  height: 100vh;
+  width: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  /* opacity: 0.4; */
+  margin: auto;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    background: #8898b6
   }
 }
- */
