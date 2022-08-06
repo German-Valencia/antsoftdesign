@@ -12,6 +12,7 @@
 .title {
     text-align: center;
     margin: 0;
+    z-index: 1;
 }
 
 .wrapper {

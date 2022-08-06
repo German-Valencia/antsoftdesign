@@ -1,3 +1,42 @@
 .container{
-    color: blueviolet;
+    height: 25vh;
+    border-top: 3px solid #07193f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 50px;    
+}
+
+.title{
+font-weight: 400;    
+color: white;
+background-color: blueviolet;
+padding: 5px;
+width: max-content;
+}
+
+.linkTitle{
+    text-decoration: underline;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+}
+
+.linkText{
+    margin-right: 20px;
+}
+
+.cardL{
+    flex: 2;
+}
+
+.cardS{
+    flex: 1;
+}
+
+.cardItem{
+    margin: 20px;
 }
