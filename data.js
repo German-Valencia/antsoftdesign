@@ -109,7 +109,7 @@ export const data = [
   },
   {
     id: 4,
-    name: "photograpy",
+    name: "photography",
     title: "Fotografía",
     desc: "Simplemente arrastre y suelte fotos y videos dentro de su área de trabajo para autollenarlo",
     //video: "ANT.mp4",

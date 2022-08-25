@@ -5,9 +5,9 @@ import styles from "../styles/Services.module.css";
 export const Services = ({ services }) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Qué Podemos Hacer?</h1>
+      <h1 className={styles.title}>Qué podemos hacer por tu empresa?</h1>
       <h1 className={styles.subtitle}>
-        Servicios con los que te podemos ayudar
+        Nuestros Servicios:
       </h1>
       <div className={styles.services}>
         {services.map((service) => (

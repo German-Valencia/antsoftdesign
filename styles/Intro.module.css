@@ -1,7 +1,6 @@
-.container{
-    padding: 0 30px;
+.container{    
     width: 100%;
-    height: calc(100vh - 10vh);
+    height: calc(100vh - 0px);
     display: flex;
     overflow: hidden;
     position: relative;
@@ -9,34 +8,102 @@
 
 .card{
     flex: 1;
-    padding: 4vw;    
+    padding: 100px;
+    padding-right: 3vw;    
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    position: relative;    
+    position: relative;        
 }
 
+.img{
+    animation-duration: 1s;
+    animation-name: cd-bounce-left;
+    
+}
+@keyframes cd-bounce-left {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
 .title{
-    font-size:3vw;
-    margin: 0;    
+    font-size:3vw;       
+  
 }
 
 .brand{
-    color: #2b4263;
+    /* color: #06122f; */
+    background-image: url(../public/fondo.gif);
+    background-size: cover;
+    color: transparent;       
+    background-clip: border-box;
+    -webkit-background-clip: text;
+
 }
 
 .desc{
     font-size: 1.5vw;
     margin: 0;
+    margin-bottom: 1.5vw;
 }
 
 .button{
     border: none;
     background-color: #2b4263;
     color: white;
-    font-weight: bold;
-    width: 10vw;
-    padding: 0.8vw;
+    font-size: 0.8vw;
+    padding: 10px;
     border-radius: 10px;
-    cursor: pointer;
+    width: 7vw;
+    cursor: pointer;    
+    text-align: center;
+}
+
+.button:hover{
+    background-color: white;
+    color: #2b4263;
+    font-weight:bolder ;
+}
+
+@media screen and (max-width:480px){
+    .container{
+        flex-direction: column;
+    }
+
+    .card{
+        padding: 30px;
+        padding-bottom: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }    
+
+    .title{
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }
+
+    .desc{
+        font-size: 15px;
+        padding: 5%;
+        
+    }
+
+    .img{
+        width: 80%;        
+    }
+   
+
+    .button{
+        font-size: 10px;
+        width: 100px;        
+    }
 }
