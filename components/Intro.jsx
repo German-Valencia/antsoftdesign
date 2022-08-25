@@ -7,8 +7,8 @@ import Link from "next/link";
 export const Intro = () => {
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="#596a8d" top="-50vh" left="-50vh" />
-      <Circle backgroundColor="#596a8d" right="-50vh" top="50vh" />
+      <Circle backgroundColor="#596a8d" top="-65vh" left="-65vh" />
+      <Circle backgroundColor="#596a8d" right="-69vh" top="69vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
           <span>Necesitas </span>
@@ -19,7 +19,7 @@ export const Intro = () => {
                 "Una landing page?",
                 "Un sitio web?",
                 "Estrategias SEO?",
-                "Estrategias de marketing?",
+                "Marketing digital?",
               ],
               autoStart: true,
               loop: true,
@@ -44,12 +44,12 @@ export const Intro = () => {
       <div className={styles.card}>
         <div className={styles.img}>
           <Image
-            src="/responsive.png"
-            width="111%"
-            height="60%"
+            src="/responsive.gif"
+            width="80%"
+            height="50%"
             layout="responsive"
             objectFit="cover"
-            alt="pcs"
+            alt="pcs"            
           />
         </div>
       </div>
