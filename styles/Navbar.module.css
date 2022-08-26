@@ -19,7 +19,14 @@
 
 .img{
   z-index: 3;
+  padding: 10px;
 }
+
+/* .img:hover{
+  background-color: #596a8d;  
+  
+  
+} */
 
 .listItems {
   display: inline;
@@ -38,7 +45,7 @@
 .listItems:hover{  
   border-top: 5px solid white;
   color: white;  
-  background-color: rgba(108, 159, 255, 0.164);  
+  background-color: rgba(255, 255, 255, 0.418);  
 }
 
 .hamburger {

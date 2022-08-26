@@ -5,21 +5,21 @@ import styles from "../styles/Services.module.css";
 export const Services = ({ services }) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Qué hacemos por tí?</h1>
-      <h1 className={styles.subtitle}>
-        Nuestros Servicios:
-      </h1>
+      <h1 className={styles.title}>Qué hacemos por ti?</h1>
+      <h1 className={styles.subtitle}>Nuestros Servicios:</h1>
       <div className={styles.services}>
         {services.map((service) => (
           <Link passHref key={service.id} href={`/products/${service.name}`}>
             <div className={styles.service}>
-                <div className={styles.desc}>{service.desc}</div>
+              <div className={styles.desc}>{service.desc}</div>
               <span className={styles.cat}>{service.title}</span>
               <div className={styles.media}>
                 {service.video ? (
                   <video
+                    type="video/mp4"
                     src={`/${service.video}`}
-                    autoPlay                   
+                    autoPlay
+                    muted
                     loop
                     className={styles.video}
                   />

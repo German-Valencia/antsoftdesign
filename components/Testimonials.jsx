@@ -7,7 +7,7 @@ export const Testimonials = () => {
   return (
     <div className={styles.container}>
       <Circle backgroundColor="#596a8d" top="-70vh" left="0" right="0" />
-      <h1 className={styles.title}>Testimonials</h1>
+      <h1 className={styles.title}>Por qué elegirnos?</h1>
       <div className={styles.wrapper}>
         {users.map((user) => (
           <div key={user.id} className={styles.card}>

@@ -3,7 +3,7 @@ export const data = [
     id: 1,
     name: "design",
     title: "Diseño Web",
-    desc: "Simplemente arrastre y suelte fotos y videos dentro de su área de trabajo para autollenarlo",
+    desc: "Nuestra agencia se encarga de desarrollar y mantener tu sitio web. A través de tendencias digitales, nos inspiramos en crear páginas web profesionales, con foco en el negocio de cada cliente.",
     video: "ANT.mp4",
     //photo: "design.jpg",
     longDesc:
@@ -151,17 +151,17 @@ export const users = [
     logo: "yahoo.png",
     avatar: "user1.jpg",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vitae veniam tempore quas, quo reprehenderit voluptas in tenetur atque dolorem repellendus eveniet odit quia molestiae iste sint, obcaecati, laborum laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi deserunt ullam ducimus sunt iusto quis ipsa earum commodi itaque! Rem nemo, voluptatem sint voluptatibus aliquam ea sit? Assumenda, ullam?",
-    name: "Harold Brown",
-    title: "Executive Manager",
+      "De la agencia ANT, puedo afirmar que está conformada por un grupo multidisciplinario de profesionales que cuentan con un alto grado de compromiso, responsabilidad, capacidad de gestión y están centrados en la obtención de resultados para sus clientes, se enfocan en aspectos plurifuncionales generando procesos exitosos y congruentes con las características que conforman cada uno de los retos que el cambiante mercado presenta.",
+    name: "Jhon Jairo Echeverri",
+    title: "Commercial Sales Executive",
   },
   {
     id: 2,
     logo: "google.png",
     avatar: "user2.jpg",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vitae veniam tempore quas, quo reprehenderit voluptas in tenetur atque dolorem repellendus eveniet odit quia molestiae iste sint, obcaecati, laborum laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi deserunt ullam ducimus sunt iusto quis ipsa earum commodi itaque! Rem nemo, voluptatem sint voluptatibus aliquam ea sit? Assumenda, ullam?",
-    name: "Anna Taylor",
+      "Cómo integrante del grupo de trabajo de ANT constantemente tenemos la visión puesta en lo que se viene, a dónde queremos llegar y queremos que ustedes nuestros clientes/socios comerciales lleguen con nosotros, los pasos agigantados que está dando la tecnología donde todo en poco tiempo cambia, nosotros estamos en esa carrera de aplicar siempre lo nuevo, Y queremos tomarnos de las manos para que todos lleguemos lo más lejos posible",
+    name: "Cristina Rizzolli",
     title: "HR Manager",
   },
   {
@@ -169,8 +169,8 @@ export const users = [
     logo: "facebook.png",
     avatar: "user3.jpg",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda vitae veniam tempore quas, quo reprehenderit voluptas in tenetur atque dolorem repellendus eveniet odit quia molestiae iste sint, obcaecati, laborum laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quasi deserunt ullam ducimus sunt iusto quis ipsa earum commodi itaque! Rem nemo, voluptatem sint voluptatibus aliquam ea sit? Assumenda, ullam?",
-    name: "James Garry",
+      "La agencia ANT se caracteriza por contar con el personal idóneo para cada una de las etapas que conforman el proceso de elaboración y desarrollo de una estrategia de marketing digital, por lo que se consiguen resultados de forma ágil y sostenibles en el tiempo, tienen en cuenta todas las características que conforman el mercado en específico que sus clientes desean impactar, asesorándolos de forma eficiente.",
+    name: "Matías Brítez",
     title: "UI Designer",
   },
 ];

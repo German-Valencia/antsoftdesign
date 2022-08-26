@@ -6,6 +6,7 @@
     width: max-content;
     font-size: 30px;
     border-bottom: 4px solid #2b4263;
+    color: #2b4263;
 }
 
 .subtitle {
@@ -22,6 +23,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .service {
@@ -35,6 +37,7 @@
     position: relative;
     margin-bottom: 50px;
     border-radius: 5%;
+    cursor: pointer;
 }
 
 .catInfo {
@@ -52,7 +55,7 @@
 .cat {
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 30px;
     z-index: 1;
     text-transform: uppercase;
     color: white;
@@ -118,5 +121,10 @@
     .service {
         width: 300px;
         height: 300px;
+    }
+
+    .cat{
+        font-size: 11px;
+        font-weight: 600;
     }
 }

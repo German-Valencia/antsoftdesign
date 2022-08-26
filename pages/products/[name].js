@@ -22,7 +22,7 @@ const Product = ({ product }) => {
         <h1 className={styles.title}>{product.title}</h1>
         <p className={styles.desc}>{product.longDesc} </p>
         <button className={styles.button}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contáctanos</Link>
         </button>
       </div>
     </div>

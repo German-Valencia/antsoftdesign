@@ -13,21 +13,21 @@ function Navbar() {
         </a>
       </Link>
       <ul className={styles.list}>
-        <li className={styles.listItems}>
-          <Link href="/products/design">Diseño WEB</Link>
-        </li>
-        <li className={styles.listItems}>
-          <Link href="/products/development">Desarrollo</Link>
-        </li>
-        <li className={styles.listItems}>
-          <Link href="/products/production">Producción</Link>
-        </li>
-        <li className={styles.listItems}>
-          <Link href="/products/photography">Fotografía</Link>
-        </li>
-        <li className={styles.listItems}>
-          <Link href="/contact">Contacto</Link>
-        </li>
+        <Link href="/products/design">
+          <li className={styles.listItems}>Diseño</li>
+        </Link>
+        <Link href="/products/development">
+          <li className={styles.listItems}>Desarrollo</li>
+        </Link>
+        <Link href="/products/production">
+          <li className={styles.listItems}>Producción</li>
+        </Link>
+        <Link href="/products/photography">
+          <li className={styles.listItems}>Fotografía</li>
+        </Link>
+        <Link href="/contact">
+          <li className={styles.listItems}>Contacto</li>
+        </Link>
       </ul>
       <div className={styles.hamburger} onClick={() => setOpen(!open)}>
         <div className={styles.line} />
