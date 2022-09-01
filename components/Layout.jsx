@@ -1,6 +1,6 @@
-
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Whatsapp from "./Whatsapp";
 
 function Layout({ children }) {
   return (
@@ -8,6 +8,7 @@ function Layout({ children }) {
       <Navbar />
       {children}
       <Footer />
+      <Whatsapp />
     </div>
   );
 }

@@ -5,10 +5,18 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
+    height: calc(79vh - 0px);
 }
 
 .title {
     z-index: 1;
+    background-image: url(../public/fondo1.gif);
+    background-size: cover;
+    color: transparent;       
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    font-size: 90px;
+    padding-top: 10px;
 }
 
 .form {
@@ -60,5 +68,9 @@
 
     .inputS:first-child {
         margin: 0;
+    }
+
+    .title{
+        font-size: 50px;
     }
 }

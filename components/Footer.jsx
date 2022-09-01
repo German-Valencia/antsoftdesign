@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.cardL}>
-        <Image src="/antligth.png" width="132px" height="40px" alt="imagen" />
+        <Image src="/logo1.png" width="300px" height="60px" alt="imagen" />
         {/* <h1 className={styles.title}>ANT</h1> */}
         <h1 className={styles.linkTitle}>
           <Link href="/contact" passHref>
@@ -19,10 +19,10 @@ function Footer() {
       </div>
       <div className={styles.cardS}>
         <div className={styles.cardItem}>
-          Cra 26 # 32-21 Palmira V.<br /> Colombia
+          Argentina<br />+54 261 609 4179<br />  <br />Colombia <br />+57 315 745 6280
         </div>
         <div className={styles.cardItem}>
-          antsoftdesign@gmail.com <br /> +57 315 745 62 80
+         <a href="mailto:antsoftdesign@gmail.com">antsoftdesign@gmail.com</a> 
         </div>
       </div>
       <div className={styles.cardS}>

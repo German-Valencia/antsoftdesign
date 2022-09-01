@@ -7,7 +7,7 @@ export const data = [
     video: "ANT.mp4",
     //photo: "design.jpg",
     longDesc:
-      "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library. Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+      "Tu sitio web es la presentación de tu empresa, por lo tanto, debe ser un reflejo inmediato de ella, un sitio web que no sea profesional hace que los visitantes no tengan una buena experiencia e incluso piensen que tu empresa está desactualizada, esto hará que busquen en tus competidores lo que no les estás ofreciendo.",
     images: [
       {
         id: 1,
@@ -39,11 +39,11 @@ export const data = [
     id: 2,
     name: "development",
     title: "Desarrollo",
-    desc: "Simplemente arrastre y suelte fotos y videos dentro de su área de trabajo para autollenarlo",
+    desc: "Creamos herramientas a las que los usuarios pueden acceder a través de Internet obteniendo información o interactuando con tu empresa.",
     //video: "ANT.mp4",
     photo: "development.png",
     longDesc:
-      "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library. Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+      "Te asistimos en la creación de una identidad visual y comunicativa sólida. Generamos los activos necesarios para cuidar la consistencia de tu empresa y marca en todos los medios.",
     images: [
       {
         id: 1,
@@ -75,11 +75,11 @@ export const data = [
     id: 3,
     name: "production",
     title: "Producción",
-    desc: "Simplemente arrastre y suelte fotos y videos dentro de su área de trabajo para autollenarlo",
+    desc: "El marketing de contenidos te ayuda a triunfar en la web, fidelizando a tus clientes por medio de información útil que los llevará a realizar una compra.",
     //video: "ANT.mp4",
     photo: "production.png",
     longDesc:
-      "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library. Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+      "Contamos con las capacidades para desarrollar material tecnológico en acción directa y real con tus clientes. Esta apuesta es ideal para generar impacto en tu audiencia y establecer comunicación. Está dirigido a poblar de posibilidades relevantes a los usuarios que te sigan en las redes sociales de tu empresa.",
     images: [
       {
         id: 1,
@@ -109,13 +109,13 @@ export const data = [
   },
   {
     id: 4,
-    name: "photography",
-    title: "Fotografía",
-    desc: "Simplemente arrastre y suelte fotos y videos dentro de su área de trabajo para autollenarlo",
+    name: "seo",
+    title: "SEO",
+    desc: "SEO es la abreviación de Search Engine Optimization (optimización en motores de búsqueda). Es el proceso de mejorar la visibilidad de un sitio web en los resultados orgánicos de cualquier buscador.",
     //video: "ANT.mp4",
     photo: "photography.png",
     longDesc:
-      "Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library. Simply drag and drop photos and videos into your workspace to automatically add them to your Collab Cloud library.",
+      "Usamos un conjunto de técnicas y estrategias centradas en optimizar el posicionamiento orgánico de tu sitio web, contar con una página para tu empresa es la base de cualquier presencia digital, pero el esfuerzo de crearla no es suficiente si no te aseguras de que tu audiencia la encuentre.",
     images: [
       {
         id: 1,
@@ -160,7 +160,7 @@ export const users = [
     logo: "google.png",
     avatar: "user2.jpg",
     comment:
-      "Cómo integrante del grupo de trabajo de ANT constantemente tenemos la visión puesta en lo que se viene, a dónde queremos llegar y queremos que ustedes nuestros clientes/socios comerciales lleguen con nosotros, los pasos agigantados que está dando la tecnología donde todo en poco tiempo cambia, nosotros estamos en esa carrera de aplicar siempre lo nuevo, Y queremos tomarnos de las manos para que todos lleguemos lo más lejos posible",
+      "Como miembro del staff de ANT, tenemos la visión puesta en lo que se viene, sabemos a dónde queremos llegar y que ustedes nuestros clientes/socios comerciales lleguen con nosotros. Estamos en constante actualización debido a los pasos agigantados que está dando la tecnología, donde todo en poco tiempo cambia y queremos tomarnos de las manos para que todos lleguemos lo más lejos posible en el logro de resultados.",
     name: "Cristina Rizzolli",
     title: "HR Manager",
   },

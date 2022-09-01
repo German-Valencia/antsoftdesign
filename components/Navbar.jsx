@@ -9,7 +9,7 @@ function Navbar() {
     <div className={styles.container}>
       <Link href="/">
         <a className={styles.img}>
-          <Image src="/antligth.png" alt="logo" width="200%" height="60%" />
+          <Image src="/logo1.png" alt="logo" width="300%" height="60%" />
         </a>
       </Link>
       <ul className={styles.list}>
@@ -22,8 +22,8 @@ function Navbar() {
         <Link href="/products/production">
           <li className={styles.listItems}>Producción</li>
         </Link>
-        <Link href="/products/photography">
-          <li className={styles.listItems}>Fotografía</li>
+        <Link href="/products/seo">
+          <li className={styles.listItems}>SEO</li>
         </Link>
         <Link href="/contact">
           <li className={styles.listItems}>Contacto</li>
@@ -49,7 +49,7 @@ function Navbar() {
           <Link href="/products/production">Producción</Link>
         </li>
         <li className={styles.menuItems}>
-          <Link href="/products/photography">Fotografía</Link>
+          <Link href="/products/seo">SEO</Link>
         </li>
         <li className={styles.menuItems}>
           <Link href="/contact">Contacto</Link>
