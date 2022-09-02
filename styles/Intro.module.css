@@ -16,11 +16,11 @@
     position: relative;            
 }
 
-.img{    
+/* .img{    
     animation-duration: 1s;
     animation-name: cd-bounce-left;
     
-}
+} */
 @keyframes cd-bounce-left {
     from {
       margin-left: 100%;

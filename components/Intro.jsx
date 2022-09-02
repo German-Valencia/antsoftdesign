@@ -44,7 +44,7 @@ export const Intro = () => {
       <div className={styles.card}>
         <div className={styles.img}>
           <Image
-            src="/responsive.png"
+            src="/responsive.gif"
             width="80%"
             height="50%"
             layout="responsive"
