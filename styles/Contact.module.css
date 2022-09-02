@@ -5,7 +5,9 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    height: calc(79vh - 0px);
+    height: calc(81vh - 0px);
+    /* height: 42.5vw; */
+    
 }
 
 .title {
@@ -15,15 +17,16 @@
     color: transparent;       
     background-clip: border-box;
     -webkit-background-clip: text;
-    font-size: 90px;
-    padding-top: 10px;
+    font-size: 4vw;
+    padding-top: 2vw;    
+    margin-bottom: 1vw;
 }
 
 .form {
     z-index: 1;
     width: 500px;
     height: 500px;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
 }

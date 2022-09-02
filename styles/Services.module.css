@@ -1,5 +1,6 @@
 .container {
     padding: 0px 100px;
+    padding-top: 0;
 }
 
 .title {
@@ -7,6 +8,7 @@
     font-size: 30px;
     border-bottom: 4px solid #2b4263;
     color: #2b4263;
+    margin-top: 0;
 }
 
 .subtitle {
@@ -22,20 +24,23 @@
 .services {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
+
+    
+    
     
 }
 
 .service {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: #596a8d;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    margin-bottom: 50px;
+    margin: 35px;
     border-radius: 5%;
     cursor: pointer;
 }

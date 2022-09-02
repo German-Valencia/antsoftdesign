@@ -42,7 +42,7 @@ export const Intro = () => {
         <button className={styles.button}>DESCUBRE</button>            
           </Link>
       </div>
-      <div className={styles.card}>
+      <div className={styles.card1}>
         <div className={styles.img}>
           <Image
             src="/responsive.gif"

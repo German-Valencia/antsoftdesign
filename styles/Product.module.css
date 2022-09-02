@@ -1,10 +1,11 @@
 .container {
     display: flex;
-    padding: 50px;
+    padding: 4vw;
     padding-top: 140px;
 
     /* width: 100%; */
-    height: calc(79vh - 0px);
+    height: calc(81vh - 0px);
+    /* height: 42.5vw; */
     /* display: flex; */
     /* overflow: hidden; */
     /* position: relative; */
@@ -43,7 +44,7 @@
 .desc {
     color: #596a8d;
     font-weight: bolder;
-    font-size: 1.3vw;
+    font-size: 1.1vw;
     padding-bottom: 20px;
 }
 
@@ -51,19 +52,25 @@
     border: none;
     background-color: #2b4263;
     color: white;
-    font-size: 15px;
+    font-size: 0.9vw;
     font-weight: bold;
-    width: 10vw;
+    width: 7vw;
     padding: 0.8vw;
     border-radius: 10px;
     cursor: default;
+}
+
+.button:hover{
+    background-color: #e6e6e6;
+    color: #2b4263;
+    border: solid 2px #2b4263;
 }
 
 @media screen and (max-width: 480px) {
     .container {
         flex-direction: column-reverse;
         padding: 20px;
-        height: calc(270vh - 0px);
+        height: calc(280vh - 0px);
     }
 
     .title {
@@ -73,6 +80,7 @@
 
     .desc{
         font-size: 20px;
+        text-align: center;
     }
 
     .cardS {
