@@ -8,7 +8,7 @@ const contact = () => {
       <Circle backgroundColor="#596a8d" right="-50vh" bottom="-70vh" />
       <h1 className={styles.title}>Contáctanos</h1>
       <form
-        action="https://formsubmit.co/antsoftdesign@gmail.com"
+        action="https://formspree.io/f/mbjbdjdq"
         method="POST"
         className={styles.form}
       >
