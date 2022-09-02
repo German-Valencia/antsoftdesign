@@ -44,10 +44,10 @@ export const Intro = () => {
       <div className={styles.card}>
         <div className={styles.img}>
           <Image
-            src="/responsive.gif"
+            src="/responsive.png"
             width="80%"
             height="50%"
-            
+            layout="responsive"
             objectFit="cover"
             alt="pcs"            
           />
