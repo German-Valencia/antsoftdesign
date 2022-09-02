@@ -47,7 +47,7 @@ export const Intro = () => {
             src="/responsive.gif"
             width="80%"
             height="50%"
-            layout="responsive"
+            
             objectFit="cover"
             alt="pcs"            
           />
