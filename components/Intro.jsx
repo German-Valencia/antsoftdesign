@@ -3,7 +3,7 @@ import styles from "../styles/Intro.module.css";
 import { Circle } from "./Circle";
 import Typewriter from "typewriter-effect";
 import Link from "next/link";
-import respo from "../public/responsive.gif"
+
 
 export const Intro = () => {
   return (
@@ -45,7 +45,7 @@ export const Intro = () => {
       <div className={styles.card}>
         <div className={styles.img}>
           <Image
-            src="../public/responsive.gif"
+            src="/responsive.gif"
             width="80%"
             height="50%"
             layout="responsive"
