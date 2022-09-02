@@ -1,9 +1,10 @@
-.container{    
+.container{        
     width: 100%;
-    height: calc(100vh - 0px);
+    height: calc(110vh - 0vh);
     display: flex;
     overflow: hidden;
     position: relative;
+    
 }
 
 .card{
