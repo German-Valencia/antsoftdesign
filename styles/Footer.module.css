@@ -55,12 +55,20 @@
     }
 
     .title, .linkTitle {
-        font-size: 28px;
+        font-size: 2vw;
+    }
+
+    .linkText{
+        font-size: 6vw;
     }
 
     .cardItem{
         text-align: center;
         font-size: 15px;
+    }
+    .linkImg{
+        width: 10px;
+        height: 10px;
     }
 }
 

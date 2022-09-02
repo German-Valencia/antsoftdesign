@@ -12,7 +12,7 @@ function Footer() {
           <Link href="/contact" passHref>
             <a>
               <span className={styles.linkText}>Trabaja con nosotros</span>
-              <Image src="/link.png" width="30px" height="30px" alt="imagen" />
+              <Image className={styles.linkImg} src="/link.png" width="20px" height="20px" alt="imagen" />
             </a>
           </Link>
         </h1>
