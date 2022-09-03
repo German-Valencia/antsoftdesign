@@ -169,7 +169,7 @@ export const users = [
     logo: "facebook.png",
     avatar: "user3.jpg",
     comment:
-      "La agencia ANT se caracteriza por contar con el personal idóneo para cada una de las etapas que conforman el proceso de elaboración y desarrollo de una estrategia de marketing digital, por lo que se consiguen resultados de forma ágil y sostenibles en el tiempo, tienen en cuenta todas las características que conforman el mercado en específico que sus clientes desean impactar, asesorándolos de forma eficiente.",
+      "La agencia ANT se caracteriza por contar con el personal idóneo para cada una de las etapas que conforman el proceso de elaboración y desarrollo de una estrategia de marketing digital, por lo que se consiguen resultados de forma ágil y sostenibles en el tiempo, tienen en cuenta todas las características que conforman el mercado en específico que sus clientes desean impactar, asesorándolos de forma eficiente y efectiva.",
     name: "Matías Brítez",
     title: "UI Designer",
   },
