@@ -5,62 +5,62 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    height: calc(81vh - 0px);
-    /* height: 42.5vw; */
+    /* height: calc(81vh - 0px); */
+     height: 81vh;
     
 }
 
 .title {
-    z-index: 1;
+    /* z-index: 1; */
     background-image: url(../public/fondo1.gif);
     background-size: cover;
     color: transparent;       
     background-clip: border-box;
     -webkit-background-clip: text;
     font-size: 4vw;
-    padding-top: 2vw;    
-    margin-bottom: 1vw;
+    padding-top: 10vh;    
+    margin-bottom: 0vh;
 }
 
 .form {
-    z-index: 1;
-    width: 500px;
-    height: 500px;
-    padding: 30px;
+    /* z-index: 1; */
+    width: 50vh;
+    height: 50vh;
+    padding: 5vh;
     display: flex;
     flex-wrap: wrap;
 }
 
 .inputS {
     flex: 1;
-    height: 50px;
-    padding-left: 10px;
+    height: 5vh;
+    padding-left: 1vh;
 }
 
 .inputS:first-child {
-    margin-right: 5px;
+    margin-right: 0.5vh;
 }
 
 .inputL {
     width: 100%;
-    height: 50px;
-    padding-left: 10px;
+    height: 5vh;
+    padding-left: 1vh;
 }
 
 .textArea {
     width: 100%;
-    padding-left: 10px;
+    padding-left: 1vh;
 }
 
 .button {
-    margin-top: 20px;
-    padding: 5px 10px;
+    margin-top: 2vh;
+    padding: 0.5vh 1vh;
     border: none;
     border-radius: 10px;
     color: white;
     background-color: #2b4263;
     width: 100%;
-    font-size: 16px;
+    font-size: 1.8vh;
     cursor: pointer;
 }
 
