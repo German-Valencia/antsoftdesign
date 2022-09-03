@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Testimonials = () => {
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="#ffffff00" top="-70vh" left="0" right="0" />
+     {/*  <Circle backgroundColor="#ffffff00" top="-70vh" left="0" right="0" /> */}
       <h1 className={styles.title}>Por qué elegirnos?</h1>
       <div className={styles.wrapper}>
         {users.map((user) => (

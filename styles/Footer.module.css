@@ -35,12 +35,13 @@
 }
 
 .cardL {
-    padding-top: 30px;    
+    /* padding-top: px;     */
     flex: 2;
 }
 
 .cardS {
     flex: 1;
+    font-size: 1.3vw;
 }
 
 .cardItem {

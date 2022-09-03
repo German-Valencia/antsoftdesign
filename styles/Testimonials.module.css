@@ -1,7 +1,7 @@
 .container {
-    height: 80vh;
+    /* height: 650px; */
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     align-items: center;

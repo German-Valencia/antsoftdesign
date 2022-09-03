@@ -8,14 +8,14 @@ function Footer() {
       <div className={styles.cardL}>
         <Image src="/logo1.png" width="300px" height="60px" alt="imagen" />
         {/* <h1 className={styles.title}>ANT</h1> */}
-        <h1 className={styles.linkTitle}>
+        {/* <h1 className={styles.linkTitle}>
           <Link href="/contact" passHref>
             <a>
               <span className={styles.linkText}>Trabaja con nosotros</span>
               <Image className={styles.linkImg} src="/link.png" width="20px" height="20px" alt="imagen" />
             </a>
           </Link>
-        </h1>
+        </h1> */}
       </div>
       <div className={styles.cardS}>
         <div className={styles.cardItem}>
