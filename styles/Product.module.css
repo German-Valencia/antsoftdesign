@@ -69,13 +69,13 @@
 @media screen and (max-width: 480px) {
     .container {
         flex-direction: column-reverse;
-        padding: 20px;
+        padding-top: 100px;
         /* height: calc(280vh - 0px); */
-        height: 650vw;
+        height: 100%;
     }
 
     .title {
-        padding-top: 21px;
+        
         font-size: 50px;
     }
 
@@ -92,8 +92,8 @@
     }
 
     .imgContainer {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         overflow: hidden;
 
@@ -114,7 +114,7 @@
 
     .cardL::before {
         content: "ASSETS";
-        color: #2b4263;
+       /* color: #2b4263; */
         font-weight: bolder;
         width: 100%;
         font-size: 50px;
@@ -123,6 +123,13 @@
         margin-left: auto;
         margin-right: auto;
         display: block;
+
+        font-size: 50px;
+        background-image: url(../public/fondo1.gif);
+        background-size: cover;
+        color: transparent;
+        background-clip: border-box;
+        -webkit-background-clip: text;
     }
 
 }
