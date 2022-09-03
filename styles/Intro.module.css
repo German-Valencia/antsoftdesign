@@ -1,6 +1,7 @@
 .container{        
     width: 100%;
-    height: calc(110vh - 0vh);
+    /* height: calc(110vh - 0vh); */
+    height: 110vh;
     display: flex;
     overflow: hidden;
     position: relative;
