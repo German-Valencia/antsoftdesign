@@ -22,7 +22,7 @@ function Footer() {
           Argentina: +54 261 609 4179
           <br />
           <br />
-          Colombia: +57 315 745 6280 <br />
+          Colombia: +57 302 844 0095 <br />
           <br />
           <a href="mailto:antsoftdesign@gmail.com">antsoftdesign@gmail.com</a>
         </div>
