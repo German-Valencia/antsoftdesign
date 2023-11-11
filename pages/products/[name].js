@@ -9,12 +9,25 @@ const Product = ({ product }) => {
       <div className={styles.cardL}>
         {product.images.map((img) => (
           <div key={img.id} className={styles.imgContainer}>
-            <Image
-              src={img.url}             
-              objectFit="cover"
-              layout="fill"
-              alt="imagen"
-            />
+            {img.url === "javascript:void(0)" ? (
+              <Image
+                src={img.pag}
+                objectFit="cover"
+                layout="fill"
+                alt="imagen"
+              />
+            ) : (
+              <Link href={img.url}>
+                <a target="_blank" rel="noreferrer">
+                  <Image
+                    src={img.pag}
+                    objectFit="cover"
+                    layout="fill"
+                    alt="imagen"
+                  />
+                </a>
+              </Link>
+            )}
           </div>
         ))}
       </div>

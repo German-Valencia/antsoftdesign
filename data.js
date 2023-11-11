@@ -11,28 +11,31 @@ export const data = [
     images: [
       {
         id: 1,
-        url: "https://images.pexels.com/photos/962000/pexels-photo-962000.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://german-valencia.vercel.app/",
+        pag: "/ger1.png",
       },
       {
         id: 2,
-        url: "https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://sushicharron.vercel.app/",
+        pag: "/ger2.png",
       },
       {
         id: 3,
-        url: "https://images.pexels.com/photos/3593865/pexels-photo-3593865.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://modern-ui-ux-app.vercel.app/",
+        pag: "/ger3.png",
       },
-      {
+      /*  {
         id: 4,
-        url: "https://images.pexels.com/photos/4065906/pexels-photo-4065906.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "/ger11.png",
       },
       {
         id: 5,
-        url: "https://images.pexels.com/photos/6373305/pexels-photo-6373305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "/ger22.png",
       },
       {
         id: 6,
-        url: "https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      },
+        pag: "/ger33.png",
+      }, */
     ],
   },
   {
@@ -47,28 +50,31 @@ export const data = [
     images: [
       {
         id: 1,
-        url: "https://images.pexels.com/photos/9965121/pexels-photo-9965121.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://dashboard2022.vercel.app/",
+        pag: "/ger4.png",
       },
       {
         id: 2,
-        url: "https://images.pexels.com/photos/9716799/pexels-photo-9716799.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://mcnicols-ecommerce.vercel.app/",
+        pag: "/ger5.png",
       },
       {
         id: 3,
-        url: "https://images.pexels.com/photos/9395308/pexels-photo-9395308.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://www.jerarqvia-grafica.com/",
+        pag: "/ger6.png",
       },
-      {
+      /*   {
         id: 4,
-        url: "https://images.pexels.com/photos/10067102/pexels-photo-10067102.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "https://images.pexels.com/photos/10067102/pexels-photo-10067102.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       },
       {
         id: 5,
-        url: "https://images.pexels.com/photos/5262378/pexels-photo-5262378.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "https://images.pexels.com/photos/5262378/pexels-photo-5262378.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       },
       {
         id: 6,
-        url: "https://images.pexels.com/photos/9796405/pexels-photo-9796405.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      },
+        pag: "https://images.pexels.com/photos/9796405/pexels-photo-9796405.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      }, */
     ],
   },
   {
@@ -83,28 +89,31 @@ export const data = [
     images: [
       {
         id: 1,
-        url: "https://images.pexels.com/photos/9299384/pexels-photo-9299384.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://alfaro.vercel.app/",
+        pag: "/ger8.png",
       },
       {
         id: 2,
-        url: "https://images.pexels.com/photos/9100089/pexels-photo-9100089.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://german-valencia.netlify.app/",
+        pag: "/ger7.png",
       },
       {
         id: 3,
-        url: "https://images.pexels.com/photos/9714732/pexels-photo-9714732.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "https://modern-ui-ux-app.vercel.app/#features",
+        pag: "/ger9.png",
       },
-      {
+      /*      {
         id: 4,
-        url: "https://images.pexels.com/photos/9651391/pexels-photo-9651391.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "https://images.pexels.com/photos/9651391/pexels-photo-9651391.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       },
       {
         id: 5,
-        url: "https://images.pexels.com/photos/10008935/pexels-photo-10008935.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "https://images.pexels.com/photos/10008935/pexels-photo-10008935.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       },
       {
         id: 6,
-        url: "https://images.pexels.com/photos/7459072/pexels-photo-7459072.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      },
+        pag: "https://images.pexels.com/photos/7459072/pexels-photo-7459072.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      }, */
     ],
   },
   {
@@ -119,28 +128,31 @@ export const data = [
     images: [
       {
         id: 1,
-        url: "https://images.pexels.com/photos/962000/pexels-photo-962000.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "javascript:void(0)",
+        pag: "/seo1.png",
       },
       {
         id: 2,
-        url: "https://images.pexels.com/photos/6489663/pexels-photo-6489663.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "javascript:void(0)",
+        pag: "/seo2.png",
       },
       {
         id: 3,
-        url: "https://images.pexels.com/photos/3593865/pexels-photo-3593865.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        url: "javascript:void(0)",
+        pag: "/seo3.png",
       },
-      {
+      /*    {
         id: 4,
-        url: "https://images.pexels.com/photos/4065906/pexels-photo-4065906.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "https://images.pexels.com/photos/4065906/pexels-photo-4065906.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       },
       {
         id: 5,
-        url: "https://images.pexels.com/photos/6373305/pexels-photo-6373305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        pag: "https://images.pexels.com/photos/6373305/pexels-photo-6373305.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       },
       {
         id: 6,
-        url: "https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      },
+        pag: "https://images.pexels.com/photos/4197693/pexels-photo-4197693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      }, */
     ],
   },
 ];

@@ -30,7 +30,17 @@ function Footer() {
       <div className={styles.cardS}>
         <div className={styles.cardItem}>
           Síguenos: <br />
-          __FB __IN __TW
+          <a
+            href="https://web.facebook.com/profile.php?id=100087498872757"
+            title="Visita nuestra página de Facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="Enlace a nuestra página de Facebook"
+            aria-label="Enlace a nuestra página de Facebook"
+          >
+            __FB{" "}
+          </a>
+          __IN __X
         </div>
         <div className={styles.cardItem}>
           © 2022 ANT <br /> Todos los derechos reservados

@@ -9,7 +9,7 @@ export const Intro = () => {
   return (
     <div className={styles.container}>
       <Circle backgroundColor="#596a8d" top="-65vh" left="-65vh" />
-      <Circle backgroundColor="#596a8d" right="-69vh" top="69vh" z-index="1"/>
+      <Circle backgroundColor="#596a8d" right="-69vh" top="69vh" zIndex="1"/>
       <div className={styles.card}>
         <h1 className={styles.title}>
           <span>Necesitas </span>

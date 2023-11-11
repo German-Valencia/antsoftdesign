@@ -11,7 +11,7 @@
 }
 
 .title {
-    /* z-index: 1; */
+    z-index: 1;
     background-image: url(../public/fondo1.gif);
     background-size: cover;
     color: transparent;       
@@ -23,7 +23,7 @@
 }
 
 .form {
-    /* z-index: 1; */
+    z-index: 1;
     width: 50vh;
     height: 50vh;
     padding: 5vh;
