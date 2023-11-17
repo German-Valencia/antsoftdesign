@@ -99,8 +99,8 @@ export const data = [
       },
       {
         id: 3,
-        url: "https://modern-ui-ux-app.vercel.app/#features",
-        pag: "/ger9.png",
+        url: "https://ecomuebles.netlify.app/",
+        pag: "/ecomuebles.png",
       },
       /*      {
         id: 4,
