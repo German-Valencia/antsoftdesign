@@ -67,7 +67,7 @@
     margin-bottom: 1.5vw;
     color: #596a8d;  
     font-weight: bolder;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .button{
