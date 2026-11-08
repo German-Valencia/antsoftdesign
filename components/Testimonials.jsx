@@ -11,15 +11,15 @@ export const Testimonials = () => {
       <div className={styles.wrapper}>
         {users.map((user) => (
           <div key={user.id} className={styles.card}>
-            <Image src={`/${user.logo}`} width="50" height="50" alt="imagen" />
+            <Image src={`/${user.logo}`} width={50} height={50} alt="imagen" />
             <p className={styles.comment}>{user.comment}</p>
             <div className={styles.person}>
               <Image
                 className={styles.avatar}
                 src={`/${user.avatar}`}
-                width="45"
-                height="45"
-                objectFit="cover"
+                width={45}
+                height={45}
+                style={{ objectFit: "cover" }}
                 alt="imagen"
               />
               <div className={styles.info}>

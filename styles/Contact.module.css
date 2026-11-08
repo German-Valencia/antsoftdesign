@@ -6,7 +6,9 @@
     overflow: hidden;
     position: relative;
     /* height: calc(81vh - 0px); */
-     height: 81vh;
+    min-height: 81vh;
+    padding: 80px 20px 30px;
+    height: auto;
     
 }
 
@@ -24,56 +26,62 @@
 
 .form {
     z-index: 1;
-    width: 50vh;
-    height: 50vh;
-    padding: 5vh;
+    width: min(50vh, 100%);
+    max-width: 100%;
+    padding: 24px;
     display: flex;
     flex-wrap: wrap;
+    gap: 12px;
 }
 
-.inputS {
-    flex: 1;
-    height: 5vh;
-    padding-left: 1vh;
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
-.inputS:first-child {
-    margin-right: 0.5vh;
+.field label {
+    color: #2b4263;
+    font-weight: 600;
 }
 
-.inputL {
+.field input,
+.field textarea {
     width: 100%;
-    height: 5vh;
-    padding-left: 1vh;
+    min-height: 42px;
+    padding: 10px;
 }
 
-.textArea {
-    width: 100%;
-    padding-left: 1vh;
+.fieldS {
+    flex: 1 1 calc(50% - 6px);
+}
+
+.fieldL {
+    flex: 1 1 100%;
+}
+
+.field textarea {
+    resize: vertical;
 }
 
 .button {
-    margin-top: 2vh;
-    padding: 0.5vh 1vh;
+    margin-top: 4px;
+    padding: 10px;
     border: none;
     border-radius: 10px;
     color: white;
     background-color: #2b4263;
     width: 100%;
-    font-size: 1.8vh;
+    font-size: 16px;
     cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
     .form {
-        width: 100%;
-    }
-
-    .inputS:first-child {
-        margin: 0;
+        padding: 16px;
     }
 
     .title{
-        font-size: 50px;
+        font-size: clamp(36px, 12vw, 50px);
     }
 }

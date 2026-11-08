@@ -128,17 +128,14 @@ export const data = [
     images: [
       {
         id: 1,
-        url: "javascript:void(0)",
         pag: "/seo1.png",
       },
       {
         id: 2,
-        url: "javascript:void(0)",
         pag: "/seo2.png",
       },
       {
         id: 3,
-        url: "javascript:void(0)",
         pag: "/seo3.png",
       },
       /*    {

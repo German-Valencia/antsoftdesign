@@ -38,18 +38,18 @@ export const Intro = () => {
           creación de sitios ajustados a tus necesidades: landing page, corporativos,
           e-commerce, entre una gran variedad de opciones.
         </p>
-        <Link href="/contact" passHref>
-        <button className={styles.button}>DESCUBRE</button>            
-          </Link>
+        <Link href="/contact" className={styles.button}>
+          DESCUBRE
+        </Link>
       </div>
       <div className={styles.card1}>
         <div className={styles.img}>
           <Image
             src="/responsive.gif"
-            width="80%"
-            height="50%"
-            layout="responsive"
-            objectFit="cover"
+            width={800}
+            height={500}
+            loading="eager"
+            style={{ width: "100%", height: "auto", objectFit: "cover" }}
             alt="pcs"            
           />
         </div>

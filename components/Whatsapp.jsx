@@ -13,7 +13,7 @@ function Whatsapp() {
         target="_blank"
         title="Contáctanos por WhatsApp"
       >
-        <Image src="/whatsapp.png" alt="whatsapp" width="80%" height="80%" />
+        <Image src="/whatsapp.png" alt="WhatsApp" width={80} height={80} />
       </a>
     </div>
   );

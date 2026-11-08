@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.cardL}>
-        <Image src="/logo1.png" width="300px" height="60px" alt="imagen" />
+        <Image src="/logo1.png" width={300} height={60} alt="ANT" />
         {/* <h1 className={styles.title}>ANT</h1> */}
         {/* <h1 className={styles.linkTitle}>
           <Link href="/contact" passHref>
@@ -19,31 +19,31 @@ function Footer() {
       </div>
       <div className={styles.cardS}>
         <div className={styles.cardItem}>
-          Argentina: +54 261 609 4179
+          Argentina: <a href="tel:+542616094179">+54 261 609 4179</a>
           <br />
           <br />
-          Colombia: +57 302 844 0095 <br />
+          Colombia: <a href="tel:+573028440095">+57 302 844 0095</a>
+          <br />
           <br />
           <a href="mailto:antsoftdesign@gmail.com">antsoftdesign@gmail.com</a>
         </div>
       </div>
       <div className={styles.cardS}>
         <div className={styles.cardItem}>
-          Síguenos: <br />
+          Síguenos en Facebook: <br />
           <a
             href="https://web.facebook.com/profile.php?id=100087498872757"
-            title="Visita nuestra página de Facebook"
+            title="Visitar la página de ANT Soft Design en Facebook"
             target="_blank"
             rel="noopener noreferrer"
-            alt="Enlace a nuestra página de Facebook"
-            aria-label="Enlace a nuestra página de Facebook"
+            aria-label="Visitar la página de ANT Soft Design en Facebook"
           >
-            __FB{" "}
+            Facebook
           </a>
-          __IN __X
         </div>
         <div className={styles.cardItem}>
-          © 2022 ANT <br /> Todos los derechos reservados
+          © {new Date().getFullYear()} ANT
+          <br /> Todos los derechos reservados
         </div>
       </div>
     </div>

@@ -7,37 +7,52 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <div className={styles.container}>
-      <Link href="/">
-        <a className={styles.img}>
-          <Image src="/logo1.png" alt="logo" width="300%" height="60%" />
-        </a>
+      <Link href="/" className={styles.img}>
+        <Image
+          src="/logo1.png"
+          alt="ANT - Inicio"
+          width={300}
+          height={60}
+          loading="eager"
+          style={{ width: "100%", height: "auto" }}
+        />
       </Link>
       <ul className={styles.list}>
-        <Link href="/products/design">
-          <li className={styles.listItems}>Diseño</li>
-        </Link>
-        <Link href="/products/development">
-          <li className={styles.listItems}>Desarrollo</li>
-        </Link>
-        <Link href="/products/production">
-          <li className={styles.listItems}>Producción</li>
-        </Link>
-        <Link href="/products/seo">
-          <li className={styles.listItems}>SEO</li>
-        </Link>
-        <Link href="/contact">
-          <li className={styles.listItems}>Contacto</li>
-        </Link>
+        <li className={styles.listItems}>
+          <Link href="/products/design">Diseño</Link>
+        </li>
+        <li className={styles.listItems}>
+          <Link href="/products/development">Desarrollo</Link>
+        </li>
+        <li className={styles.listItems}>
+          <Link href="/products/production">Producción</Link>
+        </li>
+        <li className={styles.listItems}>
+          <Link href="/products/seo">SEO</Link>
+        </li>
+        <li className={styles.listItems}>
+          <Link href="/contact">Contacto</Link>
+        </li>
       </ul>
-      <div className={styles.hamburger} onClick={() => setOpen(!open)}>
+      <button
+        type="button"
+        className={styles.hamburger}
+        onClick={() => setOpen(!open)}
+        aria-label={open ? "Cerrar menú" : "Abrir menú"}
+        aria-expanded={open}
+        aria-controls="mobile-menu"
+      >
         <div className={styles.line} />
         <div className={styles.line} />
         <div className={styles.line} />
-      </div>
+      </button>
       <ul
+        id="mobile-menu"
         onClick={() => setOpen(false)}
         className={styles.menu}
         style={{ right: open ? "0px" : "-50vw" }}
+        aria-hidden={!open}
+        inert={!open}
       >
         <li className={styles.menuItems}>
           <Link href="/products/design">Diseño WEB</Link>

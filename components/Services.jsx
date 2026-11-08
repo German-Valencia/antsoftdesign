@@ -9,7 +9,7 @@ export const Services = ({ services }) => {
       <h1 className={styles.subtitle}>Nuestros Servicios:</h1>
       <div className={styles.services}>
         {services.map((service) => (
-          <Link passHref key={service.id} href={`/products/${service.name}`}>
+          <Link key={service.id} href={`/products/${service.name}`}>
             <div className={styles.service}>
               <div className={styles.desc}>{service.desc}</div>
               <span className={styles.cat}>{service.title}</span>
@@ -26,11 +26,10 @@ export const Services = ({ services }) => {
                 ) : (
                   <Image
                     src={`/${service.photo}`}
-                    width="100%"
-                    height="100%"
-                    layout="responsive"
-                    objectFit="cover"
-                    alt="imagen"
+                    fill
+                    sizes="(max-width: 480px) 255px, 425px"
+                    style={{ objectFit: "cover" }}
+                    alt={service.title}
                   />
                 )}
               </div>

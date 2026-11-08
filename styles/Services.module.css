@@ -71,6 +71,7 @@
 .media {
     width: 85%;
     height: 85%;
+    position: relative;
     /*     background-color: yellow; */
     border-radius: 50%;
     overflow: hidden;
